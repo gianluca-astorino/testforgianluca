@@ -6,7 +6,7 @@
     <!--      <h1 style="color: white;">Gianluca Astorino</h1> -->
          <hr style="width: 35%;">
          <br>
-             <img src="https://res.cloudinary.com/piersolutions/image/upload/v1647229614/GIANLUCA_ASTORINO-removebg-preview_pwvv9m.png" alt="" style="text-align: center; justify-content: center; align-items: center;">
+             <img src="https://res.cloudinary.com/piersolutions/image/upload/v1647229614/GIANLUCA_ASTORINO-removebg-preview_pwvv9m.png" alt="" style="text-align: center; justify-content: center; align-items: center; width: 50%; height: 50%;">
          <hr>
         </div>
       
@@ -14,14 +14,15 @@
         <ul>
           <a href="https://inderatech.com" class="active" target="_blank">Indera Technologies</a>
           <a href="https://www.trainertraker.com/" target="_blank">Trainer Traker</a>
+          <!-- <a href="about.html">About</a> -->
           <!-- <a href="https://instagram.com/sasha.codes/" target="_blank">Instagram</a>
           <a href="https://twitter.com/sa_sha26" target="_blank">Twitter</a> -->
         </ul>
       </div>
       <div class="navigation2">
-        <i class="fa fa-linkedin" style="color: white;"></i>
-        <i class="fa fa-twitter" style="color: white;"></i>
-        <i class="fa fa-envelope" style="color: white;"></i>
+        <a href="https://www.linkedin.com/in/gianlucaastorino/" target="_blank"><i class="fa fa-linkedin" style="color: white; font-size: 24px;"></i></a>
+        <a href="https://twitter.com/gastorino_" target="_blank"><i class="fa fa-twitter" style="color: white; font-size: 24px;"></i></a>
+        <a href="mailto:gianluca@piersolutions.ca"><i class="fa fa-envelope" style="color: white; font-size: 24px;"></i></a>
       </div>
     </div>
     <style>
@@ -93,7 +94,7 @@
     display: flex;
     list-style-type: none;
     }
-    a {
+    .navigation a {
         margin: 10px 30px;
         position: relative;
         color: var(--text);
@@ -102,11 +103,19 @@
         text-transform: uppercase;
         text-decoration: none;
     }
-    a:hover {
+    .navigation2 a {
+        position: relative;
+        color: var(--text);
+        font-family: 'Copperplate', sans-serif;
+        font-size: 30px;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .navigation a:hover {
         color: #FF1EAD;
     }
 
-    .active {
+    .navigation .active {
         color: var(--highlight);
     }
    
